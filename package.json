@@ -1,0 +1,14 @@
+{
+  "name": "bf2-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for monitoring BF2 server",
+  "main": "bot.js", // Замініть на фактичне ім'я вашого файлу бота
+  "dependencies": {
+    "node-telegram-bot-api": "^0.55.0", // Залежності вашого бота
+    "node-fetch": "^2.6.5"
+  },
+  "pkg": {
+    "scripts": "bot.js", // Замініть на фактичне ім'я вашого файлу бота
+    "targets": "node14-win-x64" // Основні цілі для збірки
+  }
+}
